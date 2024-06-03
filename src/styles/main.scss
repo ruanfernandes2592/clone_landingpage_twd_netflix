@@ -1,5 +1,75 @@
-$bgColor: rgba(255, 60, 0, 0.562);
+@use 'variaveis';
+@use 'header';
+@use 'hero';
+@use 'hook';
+@use 'temporadas';
+
+@font-face {
+    font-family: Netflix;
+    src: url(../../assets/fonts/nf-icon-v1-93.woff);
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix, sans-serif;
+}
 
 body {
-    background-color: $bgColor;
+    background-color: variaveis.$corDeFundo;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    white-space: nowrap;
+    font-size: 16px;
+    color: variaveis.$corTextoPrimario;
+    background-color: variaveis.$corBotaoPrimario;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 8px 24px;
+
+    &:hover {
+        background-color: lighten(variaveis.$corBotaoPrimario, 5%);
+    }
+
+    &--dark {
+        background-color: transparent;
+        border: 1px solid variaveis.$corTextoPrimario;
+        width: 92px;
+        padding: 8px 12px;
+        margin-right: 12px;
+
+        &:hover {
+            background-color: rgba(128, 128, 128, 0.404);
+        }
+    }
+}
+
+.title {
+    color: variaveis.$corTextoPrimario;
+    font-size: 24px;
+}
+
+.texto--secundario {
+    color: variaveis.$corTextoSecundario;
+    font-size: 16px;
+}
+
+footer {
+    font-size: 18px;
+    padding: 0 84px 64px 84px;
+
+    @media (max-width: 950px) {
+        padding: 0 5% 84px 5%;
+    }
 }

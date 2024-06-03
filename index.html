@@ -7,6 +7,1197 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
-    Olá
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/Netflix-logo.png" alt="Logo da Netflix">
+                <img class="header__logo2" src="./dist/images/n-logo.png" alt="Logo da Netflix">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a class="button" href="#">Acessar agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a class="button button--dark" href="#">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content--branding">
+                <img src="./dist/images/twd-logo.png" alt="">
+            </div>
+            <div class="hero__content--info">
+                <h1 class="title"> The Walking Dead</h1>
+                <div class="hero__content--info--dados texto--secundario">
+                    <span>2010</span>
+                    <span> | </span>
+                    <span class="classific">A18</span>
+                    <span> | </span>
+                    <span>11 temporadas</span>
+                    <span> | </span>
+                    <span>Terror</span>
+                </div>
+                <div class="planos">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C4 2.23858 6.23858 0 9 0C11.7614 0 14 2.23858 14 5V6H16C17.1046 6 18 6.89543 18 8V16C18 17.1046 17.1046 18 16 18H2C0.89543 18 0 17.1046 0 16V8C0 6.89543 0.89543 6 2 6H4V5ZM12 5V6H6V5C6 3.34315 7.3431 2 9 2C10.6569 2 12 3.34315 12 5ZM2 8V16H16V8H2ZM8 10V14H10V10H8Z" fill="white"></path></svg>
+                    <span>Não disponível em planos com anúncios devido a restrições de licenciamento.</span>
+                </div>
+                <div class="sinopse">
+                    <span>Zumbis dominam o mundo dos vivos, e os sobreviventes unem forças para manter viva a raça humana.</span>
+                </div>
+                <div class="elenco">
+                    <span class="texto--secundario">Estrelando:</span>
+                    <span>Andrew Lincoln,Steven Yeun,Norman Reedus</span>
+                </div>
+            </div>
+            <div class="hero__content__popup">
+                <img src="./dist/images/n-logo.png" alt="">
+                <div class="hero__content__popup__itens">
+                    <div>
+                        <p>Assista o quanto quiser.</p>
+                    </div>
+                    <div>
+                        <a class="button" href="#">Acessar agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hook">
+        <div class="texto--secundario">
+            <hr>
+            <p>Andrew Lincoln, Melissa McBride e Norman Reedus estrelam esta clássica série repleta de terror e drama.</p>
+            <hr>
+        </div>
+    </section>
+    <section class="temporadas">
+        <div class="temporadas__title">
+            <h2 class="title">Episódios</h2>
+            <h2 class="texto--secundario">The Walking Dead</h2>
+        </div>
+        <select id="temporada-select">
+            <option data-tab-button="temp-01"  value="temp01">Temporada 1</option>
+            <option data-tab-button="temp-02" value="temp02">Temporada 2</option>
+            <option data-tab-button="temp-03" value="temp03">Temporada 3</option>
+            <option data-tab-button="temp-04" value="temp04">Temporada 4</option>
+            <option data-tab-button="temp-05" value="temp05">Temporada 5</option>
+            <option data-tab-button="temp-06" value="temp06">Temporada 6</option>
+            <option data-tab-button="temp-07" value="temp07">Temporada 7</option>
+            <option data-tab-button="temp-08" value="temp08">Temporada 8</option>
+            <option data-tab-button="temp-09" value="temp09">Temporada 9</option>
+            <option data-tab-button="temp-10" value="temp10">Temporada 10</option>
+            <option data-tab-button="temp-11" value="temp11">Temporada 11</option>
+        </select>
+        <div class="mini-descricao">
+            <h3>Ano de lançamento: 2010</h3>
+        <p class="texto--secundario">Em um mundo dominado por zumbis, um grupo de sobreviventes tenta encontrar segurança e respostas dentro do CCD.</p>
+        </div>
+        <div class="temporadas__shows">
+            <ul data-tab-id="s1" class="s1 temporadas__shows__list temporadas__shows__list--is-active">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s1e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s1e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s1e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s1e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s1e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s1e6.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s2" class="s2 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s2e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e7.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s2e13.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s3" class="s3 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s3e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e7.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s3e16.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s4" class="s4 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s4e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e7.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s4e16.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s5" class="s5 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s5e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e7.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s5e16.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s6" class="s6 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s6e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s6e7.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s6e16.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s7" class="s7 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s7e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s7e7.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s7e16.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s8" class="s8 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s8e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s8e7.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s8e16.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s9" class="s9 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s9e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e7.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s9e16.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s10" class="s10 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s10e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e7.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e16.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e17.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e18.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e19.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e20.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e21.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s10e22.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+            <ul data-tab-id="s11" class="s11 temporadas__shows__list">
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span>
+                            <img src="./dist/images/s11e1.jpg" alt="">
+                        </span>
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e2.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e3.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e4.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e5.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e6.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e7.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e8.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e9.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e10.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e11.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e12.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e13.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e14.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e15.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e16.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e17.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e18.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e19.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e20.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e21.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e22.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e23.jpg" alt="">
+                    </figure>
+                </li>
+                <li class="temporadas__shows__list__item">
+                    <figure>
+                        <span></span>
+                            <img src="./dist/images/s11e24.jpg" alt="">
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p class="texto--secundario">Dúvidas? Ligue 0800 591 2876</p>
+        <p class="texto--secundario">Netflix Brasil</p>
+    </footer>
+    <script src="./src/scripts/main.js"></script>
 </body>
 </html>

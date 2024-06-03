@@ -1,0 +1,81 @@
+@use 'variaveis';
+
+.temporadas {
+padding: 0 84px 84px 84px;
+
+@media (max-width: 950px) {
+    padding: 0 5% 84px 5%;
+}
+
+    &__title {
+        display: flex;
+
+        .texto--secundario {
+            border-left: 1px solid variaveis.$corTextoSecundario;
+            margin-left: 9px;
+            padding-left: 15px;
+            align-items: center;
+        }
+
+    }
+
+    select {
+        background: variaveis.$corDeFundo;
+        border: none;
+        border-radius: 1%;
+        color: variaveis.$corTextoPrimario;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: bold;
+       // line-height: 38px;
+        outline-offset: 3px;
+        padding: 7px 30px 7px 7px;
+        margin: 38px 0;
+        outline: none;
+    }
+
+    h3 {
+        color: variaveis.$corTextoPrimario;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 24px;
+        max-width: 830px;
+       // width: 100%;
+        margin-top: 5px;
+        margin-bottom: 32px;
+    }
+
+    &__shows {
+
+        &__list {
+            list-style: none;
+            display: none;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 24px;
+
+            @media (max-width: 1024px) {
+                grid-template-columns: 1fr 1fr;
+                }
+
+            @media (max-width: 599px) {
+                grid-template-columns: 1fr;
+            }
+
+
+            &--is-active {
+                display: grid;
+            }
+
+            &__item {
+                figure {
+                    img {
+                        width: 100%;
+                    }
+                }    
+            }
+        }
+    }
+}
